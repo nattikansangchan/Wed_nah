@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', sans-serif;
+}
+
+body {
+    background-image: url("about.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.about-section {
+    padding: 40px 60px;
+    position: relative;
+}
+
+/* หัวข้อ */
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+/* โครงหลัก */
+.content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* กล่องรูป */
+.profile-card {
+    width: 545px;
+    height: 360px;
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* ป้ายสวัสดี */
+.hello {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #3b6cff;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* กล่องข้อความ */
+.text-box {
+    width: 420px;
+    height: 20px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* ปุ่มมุมขวาล่าง */
+.next-btn {
+    position: absolute;
+    bottom: -65px;
+    right: 30px;
+    background: #ff9bb3;
+    color: #fff;
+    padding: 12px 26px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.next-btn:hover {
+    background: #ff7f9f;
+
+}
+
